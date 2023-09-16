@@ -60,3 +60,51 @@ O iPhone é um dispositivo multifuncional que inclui um reprodutor musical, um t
 - Atualizar páginas da web
 
 
+# ----------------------------------------------------------------------------
+# Diagrama em formato tabela
+# iPhone
+
+| Componente              | Classe                   |
+|-------------------------|--------------------------|
+| **iPhone**              |                          |
+| - reprodutor            | ReprodutorMusical        |
+| - telefone              | AparelhoTelefonico       |
+| - navegador             | NavegadorInternet        |
+
+## Funcionalidades Gerais
+
+| Método                                 | Descrição                               |
+|----------------------------------------|-----------------------------------------|
+| + tocarMusica(): void                  | Toca música                             |
+| + pausarMusica(): void                 | Pausa a reprodução de música            |
+| + selecionarMusica(musica: String): void | Seleciona uma música                   |
+| + ligar(numero: String): void          | Faz uma ligação telefônica              |
+| + atender(): void                      | Atende uma chamada telefônica           |
+| + iniciarConversaVoz(): void           | Inicia uma conversa por voz             |
+| + exibirPagina(url: String): void      | Exibe uma página da web                 |
+| + adicionarNovaAba(): void             | Adiciona uma nova aba no navegador      |
+| + atualizarPagina(): void              | Atualiza a página da web                |
+
+## ReprodutorMusical
+
+| Método                                 | Descrição                               |
+|----------------------------------------|-----------------------------------------|
+| + tocar(): void                        | Inicia a reprodução de música           |
+| + pausar(): void                       | Pausa a reprodução de música            |
+| + selecionarMusica(musica: String): void | Seleciona uma música                   |
+
+## AparelhoTelefonico
+
+| Método                                 | Descrição                               |
+|----------------------------------------|-----------------------------------------|
+| + ligar(numero: String): void          | Faz uma ligação telefônica              |
+| + atender(): void                      | Atende uma chamada telefônica           |
+| + iniciarConversaVoz(): void           | Inicia uma conversa por voz             |
+
+## NavegadorInternet
+
+| Método                                 | Descrição                               |
+|----------------------------------------|-----------------------------------------|
+| + exibirPagina(url: String): void      | Exibe uma página da web                 |
+| + adicionarNovaAba(): void             | Adiciona uma nova aba no navegador      |
+| + atualizarPagina(): void              | Atualiza a página da web                |
