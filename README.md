@@ -18,47 +18,45 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
 
 
-Diagrama
 
-+---------------------------------------------+
-|                 iPhone                      |
-+---------------------------------------------+
-| - reprodutor: ReprodutorMusical            |
-| - telefone: AparelhoTelefonico             |
-| - navegador: NavegadorInternet             |
-+---------------------------------------------+
-| + tocarMusica(): void                      |
-| + pausarMusica(): void                     |
-| + selecionarMusica(musica: String): void   |
-| + ligar(numero: String): void              |
-| + atender(): void                          |
-| + iniciarConversaVoz(): void               |
-| + exibirPagina(url: String): void          |
-| + adicionarNovaAba(): void                 |
-| + atualizarPagina(): void                  |
-+---------------------------------------------+
 
-+---------------------------------------------+
-|           ReprodutorMusical                |
-+---------------------------------------------+
-| + tocar(): void                            |
-| + pausar(): void                           |
-| + selecionarMusica(musica: String): void   |
-+---------------------------------------------+
+# iPhone
 
-+---------------------------------------------+
-|         AparelhoTelefonico                 |
-+---------------------------------------------+
-| + ligar(numero: String): void              |
-| + atender(): void                          |
-| + iniciarConversaVoz(): void               |
-+---------------------------------------------+
+O iPhone é um dispositivo multifuncional que inclui um reprodutor musical, um telefone e um navegador de internet.
 
-+---------------------------------------------+
-|        NavegadorInternet                   |
-+---------------------------------------------+
-| + exibirPagina(url: String): void          |
-| + adicionarNovaAba(): void                 |
-| + atualizarPagina(): void                  |
-+---------------------------------------------+
+## Funcionalidades Gerais
+- Tocar música
+- Pausar música
+- Selecionar música
+- Fazer ligações telefônicas
+- Atender chamadas
+- Iniciar conversa por voz
+- Exibir páginas da web
+- Adicionar novas abas no navegador
+- Atualizar páginas da web
+
+## Reprodutor Musical
+- Classe: ReprodutorMusical
+
+### Funcionalidades do Reprodutor Musical
+- Tocar música
+- Pausar música
+- Selecionar música
+
+## Telefone
+- Classe: AparelhoTelefonico
+
+### Funcionalidades do Telefone
+- Fazer ligações telefônicas
+- Atender chamadas
+- Iniciar conversa por voz
+
+## Navegador de Internet
+- Classe: NavegadorInternet
+
+### Funcionalidades do Navegador de Internet
+- Exibir páginas da web
+- Adicionar novas abas no navegador
+- Atualizar páginas da web
+
 
