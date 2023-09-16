@@ -2,57 +2,57 @@ public class iPhone implements AparelhoTelefonico, NavegadorInternet, Reprodutor
 
     @Override
     public void ligar(String numero) {
-        System.out.println("Lingando para: "+ numero);
+        System.out.println("\n\nLingando para: "+ numero + "\n\n");
         
     }
 
     @Override
     public void atender() {
         
-        System.out.println("Atendeu!");
+        System.out.println("\n\nAtendeu!");
     }
 
     @Override
     public void iniciarConversaVoz() {
         
-        System.out.println("Iniciar Conversa de Voz!");
+        System.out.println("\n\nConversa de voz iniciada!");
     }
 
     @Override
     public void exibirPagina(String url) {
         
-       System.out.println("Exibir pagina!'");
+       System.out.println("\n\nExibindo pagina!'");
     }
 
     @Override
     public void adicionarNovaAba() {
         
-       System.out.println("Nova aba adicionada!");
+       System.out.println("\n\nNova aba adicionada!");
     }
 
     @Override
     public void atualizarPagina() {
         
-       System.out.println("Atualizando pagina");
+       System.out.println("\n\nAtualizando pagina..!");
     }
 
 
     @Override
     public void tocar() {
         
-       System.out.println("Tocar Música!");
+       System.out.println("\n\nTocar Música!");
     }
 
     @Override
     public void pausar() {
         
-       System.out.println("Musica Pausada");
+       System.out.println("\n\nMusica Pausada");
     }
 
     @Override
     public void selecionarMusica(String musica) {
         
-       System.out.println("selecione uma musica");
+       System.out.println("\n\n Musica selecionada");
     }
 
     
